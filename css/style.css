@@ -1,16 +1,17 @@
 body {
+  font-family: sans-serif;
     border-color: #d46a39;
     border-style: solid;
     border-radius: 0px;
     border-width: 10px;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-right: 10px;
     background-color: #FCF7F8;
-    
-}
+  }
 
 header {
     text-align: center;
+    color: white;
     background-color: #343330;
   }
   
@@ -18,3 +19,19 @@ footer {
     background-color: #343330;
     text-align: center;
   }
+
+aside {
+    width: 30%;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-left: 10rem;
+    float: right;
+    box-shadow: inset 5px 0px 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+  }
+
+nav {
+  width: 20%;
+  background-color: #45462a;
+}
