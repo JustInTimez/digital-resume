@@ -1,5 +1,5 @@
 body {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border-radius: 0px;
   border-width: 10px;
   padding-left: 10px;
@@ -40,16 +40,19 @@ nav {
   font-size: 20px;
 }
 
-li {
+.edu-menu {
   float: left;
 }
 
 li a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 12px 12px;
   text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
 
 ul {
@@ -58,4 +61,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+}
+
+#menu-heading {
+  text-align: center;
+  padding-top: 15px;
 }
