@@ -10,11 +10,11 @@ body {
 header {
   text-align: center;
   color: white;
-  background-color: #BEA57D;
+  background-color: #6494aa;
 }
 
 footer {
-  background-color: #BEA57D;
+  background-color: #6494aa;
   text-align: center;
   color: white;
 }
@@ -36,16 +36,16 @@ nav {
   background-color: #6494AA;
 }
 
-.nav-menu {
+.list-menu li {
   font-size: 20px;
+  display: inline-flex;
 }
 
-.edu-menu {
-  float: left;
-}
+.menu-div {}
+
+.menu-item {}
 
 li a {
-  display: block;
   color: white;
   padding: 12px 12px;
   text-decoration: none;
@@ -56,10 +56,10 @@ li a:hover {
 }
 
 ul {
-  list-style-type: none;
+  text-align: center;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
   background-color: #333;
 }
 
