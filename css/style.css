@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 0px;
   border-width: 10px;
   padding-left: 10px;
@@ -17,7 +17,8 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23e4e4e4' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-header, footer {
+header,
+footer {
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23e4e4e4' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
   text-align: center;
@@ -27,6 +28,7 @@ header, footer {
 }
 
 #content {
+  position: static;
   margin-left: 25px;
 }
 
@@ -47,7 +49,7 @@ aside {
 }
 
 .menu-div {
-  width: 50%; 
+  width: 50%;
 }
 
 nav {
@@ -60,7 +62,7 @@ nav {
 .list-menu {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   flex-grow: 1;
   margin: auto;
   align-content: center;
@@ -89,17 +91,17 @@ ul {
   background-color: #333;
 }
 
+/* Heading fonts etc */
+
 #menu-heading {
   text-align: center;
-  padding-top: 15px;
+  margin: 10px;
 }
 
-/* Fonts */
-
 h1 {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 35px;
-  
+
 }
 
 #contact {
@@ -107,4 +109,54 @@ h1 {
   font-size: 30px;
   text-align: center;
   margin-top: 20px;
+}
+
+#digitalresume {
+  font-size: 20px;
+}
+
+#softwarestudent {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#exp-heading {
+  display: flex;
+  justify-content: space-around;
+  font-size: 29px;
+
+}
+
+.dateDurationText {
+  display: flex;
+  align-self: center;
+  font-size: 14px;
+  background-color: #ddd;
+  border: 1px solid;
+  border-color: rgb(112, 112, 112);
+  color: black;
+  padding: 4px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 16px;
+
+}
+
+h3 {
+  font-size: 26px;
+}
+
+.workHeadingDuration {
+  margin-bottom: -25px;
+  width: fit-content;
+  display: flex;
+  gap: 20px;
+  align-self: flex-end;
+
+}
+
+.titleRole {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
