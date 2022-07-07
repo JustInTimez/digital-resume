@@ -1,12 +1,12 @@
 #headshotJ {
-  width: 220px;
-  height: 220px;
+  width: 170px;
+  height: 270px;
   border-radius: 50%;
   border: 3px solid white;
 }
 
 body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 0px;
   border-width: 10px;
   padding-left: 10px;
@@ -39,13 +39,13 @@ footer {
 
 aside {
   width: 30%;
-  margin-top: 0px;
+  height: 150px;
+  margin-top: -180px;
   padding-left: 10px;
-  margin-left: 10rem;
   float: right;
-  box-shadow: inset 5px 0px 5px -5px #29627e;
+  box-shadow: inset 5px 0px 5px -2px black;
   font-style: italic;
-  color: #29627e;
+  color: black;
 }
 
 .menu-div {
@@ -60,17 +60,20 @@ nav {
 }
 
 .list-menu {
+  background-color: #333;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-grow: 1;
-  margin: auto;
-  align-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .list-menu li {
   font-size: 20px;
   display: inline-flex;
+  text-align: center;
+
 }
 
 li a {
@@ -83,13 +86,10 @@ li a:hover {
   background-color: #111;
 }
 
-ul {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  overflow: auto;
-  background-color: #333;
+li a:visited {
+  color: white;
 }
+
 
 /* Heading fonts etc */
 
@@ -136,12 +136,11 @@ h1 {
   border: 1px solid;
   border-color: rgb(112, 112, 112);
   color: black;
-  padding: 4px 6px;
+  padding: 2px 4px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 16px;
-
 }
 
 h3 {
@@ -158,5 +157,5 @@ h3 {
 }
 
 .titleRole {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
