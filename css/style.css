@@ -23,7 +23,7 @@ footer {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23e4e4e4' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
   text-align: center;
   color: white;
-  background-color: #6494aa;
+  background-color: #799dad;
   border: 1px solid black;
 }
 
@@ -38,9 +38,10 @@ footer {
 }
 
 aside {
+  line-height: 65px;
   width: 30%;
-  height: 150px;
-  margin-top: -180px;
+  height: 100px;
+  margin-top: -150px;
   padding-left: 10px;
   float: right;
   box-shadow: inset 5px 0px 5px -2px black;
@@ -48,14 +49,10 @@ aside {
   color: black;
 }
 
-.menu-div {
-  width: 50%;
-}
-
 nav {
   width: auto;
   color: white;
-  background-color: #6494AA;
+  background-color: #799dad;
   border: 1px solid black;
 }
 
@@ -63,7 +60,7 @@ nav {
   background-color: #333;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   flex-grow: 1;
   margin: 0;
   padding: 0;
@@ -73,7 +70,6 @@ nav {
   font-size: 20px;
   display: inline-flex;
   text-align: center;
-
 }
 
 li a {
@@ -106,9 +102,9 @@ h1 {
 
 #contact {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: -10px;
 }
 
 #digitalresume {
