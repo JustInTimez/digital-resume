@@ -124,6 +124,12 @@ h1 {
 
 }
 
+#skills {
+  display: flex;
+  justify-content: space-around;
+  font-size: 29px;
+}
+
 .dateDurationText {
   display: flex;
   align-self: center;
