@@ -58,6 +58,7 @@ nav {
 
 .list-menu {
   background-color: #333;
+  border-top: 2px solid black;
   display: flex;
   flex-direction: row;
   justify-content: center;
