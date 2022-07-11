@@ -117,7 +117,7 @@ h1 {
   font-style: italic;
 }
 
-#exp-heading {
+.exp-heading {
   display: flex;
   justify-content: space-around;
   font-size: 29px;
