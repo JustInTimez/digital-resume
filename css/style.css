@@ -2,7 +2,7 @@
   width: 170px;
   height: 270px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid white;      /* I didn't make my image fully circular as I felt my chosen image looked better like this. */
 }
 
 body {
@@ -86,6 +86,10 @@ li a:visited {
   color: white;
 }
 
+.introMeLine {
+  color: white;
+  width: 500px;
+}
 
 /* Heading fonts etc */
 
@@ -115,6 +119,14 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   font-style: italic;
+  margin-top: -15px;
+}
+
+#introMeText {
+  font-size: 17px;
+  word-wrap: normal;
+  font-style: oblique;
+  text-shadow:black 1px 1px 1px;
 }
 
 .exp-heading {
