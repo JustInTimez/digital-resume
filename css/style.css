@@ -6,6 +6,8 @@
 }
 
 body {
+  max-width: 1240px;
+  margin: auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 0px;
   border-width: 10px;
@@ -91,8 +93,16 @@ li a:visited {
   width: 500px;
 }
 
+.rowSkillsInt {
+  display: flex;
+  justify-content: space-around;
+
+}
+
 .column {
-  display: inline-block;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 30%;
 }
 
 /* Heading fonts etc */
@@ -154,14 +164,13 @@ h1 {
 }
 
 .dateDurationText {
-  display: flex;
   align-self: center;
-  font-size: 14px;
+  font-size: 13px;
   background-color: #ddd;
   border: 1px solid;
   border-color: rgb(112, 112, 112);
   color: black;
-  padding: 2px 4px;
+  padding: 2px 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
